@@ -1,0 +1,166 @@
+.homeImageContainer {
+  height: 35rem;
+  width: 100%;
+}
+
+.searchContainer {
+  transform: translatey(-60%);
+  margin: 0px auto;
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 3px 7px rgba(0.2, 0.2, 0.2, 0.2);
+  width: 40%;
+  height: 13.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchTitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 35px;
+  color: #ff8000;
+}
+
+.searchDescription {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  color: rgb(156, 156, 156);
+  font-size: 19px;
+}
+
+.inputSearchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 0 3px 7px rgba(0.2, 0.2, 0.2, 0.2);
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 60px;
+}
+
+.searchIcon {
+  margin-left: 20px;
+  width: 50px;
+  height: 100%;
+  color: #ff8000;
+}
+
+.inputSearch,
+.inputSearchError {
+  border: none;
+  width: 100%;
+  height: 50px;
+  margin: 0px 20px;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.inputSearch::placeholder,
+.inputSearchError::placeholder {
+  font-size: 15px;
+  font-weight: normal;
+
+  transition: transform 0.3s ease;
+}
+
+.inputSearch:focus {
+  outline: none;
+}
+
+.inputSearch:focus::placeholder {
+  transform: translateY(-90%);
+  /* transition: transform 0.3s ease;  */
+}
+
+.buttonContainer {
+  height: 100%;
+  width: 180px;
+}
+
+.button {
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.errorContainer {
+  display: flex;
+  align-items: center;
+  background-color: #fff9df;
+  padding: 3px 10px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1250px) {
+  .searchContainer {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .searchContainer {
+    width: 80%;
+  }
+
+  .searchTitle {
+    font-size: 30px;
+  }
+
+  .searchDescription {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .searchContainer {
+    width: 90%;
+  }
+
+  .searchTitle {
+    font-size: 25px;
+  }
+
+  .searchDescription {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .searchContainer {
+    width: 90%;
+    height: 5rem;
+  }
+
+  .searchTitle {
+    display: none;
+  }
+
+  .searchDescription {
+    display: none;
+  }
+
+  .inputSearchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .inputSearch {
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+
+  .buttonContainer {
+    height: 30px;
+    width: 100px;
+  }
+}

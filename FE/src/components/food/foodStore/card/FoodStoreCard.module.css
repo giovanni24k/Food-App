@@ -1,0 +1,80 @@
+p {
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.foodCardContainer {
+  margin-bottom: 30px;
+  height: 150px;
+}
+
+.foodCardContainer:hover {
+  cursor: pointer;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.foodCardContainer:hover .imageContainer {
+  opacity: 0.7;
+}
+
+.imageContainer {
+  width: 30%;
+  height: 150px;
+  margin-right: 12px;
+}
+
+.image {
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.foodCardTitleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  padding-bottom: 30px;
+}
+
+.foodCardTitleContainer h1 {
+  font-size: 20px;
+}
+
+.foodCardIconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.foodCardStarIcon {
+  color: #ff8000;
+  margin-top: 2px;
+  width: 20px;
+}
+
+.foodCardIcon {
+  color: black;
+  margin-top: 2px;
+  margin-right: 4px;
+  width: 20px;
+}
+
+.foodCardRatingTextContainer {
+  display: flex;
+}
+
+.foodCardRating {
+  font-weight: bold;
+}
+
+.foodCardRatingMeasure {
+  color: rgb(141, 141, 141);
+}
+
+.foodCardDescriptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  padding-top: 30px;
+}

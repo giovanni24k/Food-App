@@ -1,0 +1,61 @@
+h2 {
+  margin: 0;
+}
+
+p {
+}
+
+.foodRecipeCardContainer {
+  margin-bottom: 30px;
+  height: 150px;
+  width: 35rem;
+}
+
+.foodRecipeCardContainer:hover {
+  cursor: pointer;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.foodRecipeCardImageContainer {
+  height: 150px;
+  width: 30%;
+}
+
+.foodRecipeCardImage {
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.foodRecipeCardDescriptionContainer {
+  width: 40%;
+  height: 100%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.foodRecipeCardPriceButton {
+  width: 40%;
+  height: 25px;
+  border-radius: 20px;
+  background-color: rgb(226, 226, 226);
+  color: rgb(0, 0, 0);
+}
+
+.foodRecipeCardPriceButton:hover {
+  cursor: not-allowed;
+}
+
+.foodRecipeCardButtonContainer {
+  width: 30%;
+  height: 40px;
+}
+
+.foodRecipeCardAddButton {
+  width: 90%;
+  margin-left: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+}

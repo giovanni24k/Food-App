@@ -1,0 +1,35 @@
+.foodStoreDetailContainer {
+  border-radius: 10px;
+  box-shadow: 0 3px 7px rgba(0.2, 0.2, 0.2, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40rem;
+  position: relative;
+  transform: translatey(-50%);
+  background-color: white;
+}
+
+.foodStoreDetailName {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.foodStoreDetailCategoryText {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.foodStoreDetailReviewsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.foodStoreDetailReviewsContainer p {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.foodStoreDetailReviewsText {
+  margin: 0px 5px 0px 15px;
+}

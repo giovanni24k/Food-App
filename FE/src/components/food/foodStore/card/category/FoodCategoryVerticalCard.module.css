@@ -1,0 +1,43 @@
+.foodCategoryVerticalCardContainer {
+  border-radius: 20px;
+  box-shadow: 0 0 0 1px #e0e0e0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.foodCategoryVerticalCardContainer:hover {
+  cursor: pointer;
+}
+
+.foodCategoryVerticalCardContainer:hover .foodCategoryVerticalCardIcon {
+  left: 1px;
+}
+
+.foodCategoryVerticalCardContainer:hover .foodCategoryVerticalCardText {
+  left: 1px;
+}
+
+.foodCategoryVerticalCardIcon {
+  position: relative;
+  transition: left 0.2s ease;
+  left: -30px;
+}
+
+.selectedFoodCategoryVerticalCardIcon {
+  position: static;
+}
+
+.foodCategoryVerticalCardText {
+  position: relative;
+  transition: left 0.2s ease;
+  left: -20px;
+}
+
+.selectedFoodCategoryVerticalCardText{
+  
+}

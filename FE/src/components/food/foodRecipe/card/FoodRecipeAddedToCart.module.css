@@ -1,0 +1,41 @@
+.foodRecipeAddedToCartContainer {
+  padding: 5px;
+  width: 20rem;
+  height: 90px;
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.foodRecipeAddedToCartRemoveIconContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.foodRecipeAddedToCartRemoveIcon:hover {
+  color: rgb(162, 162, 162);
+  cursor: pointer;
+}
+
+.foodRecipeAddedToCartDescriptionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.foodRecipeAddedToCartButtonPriceDisabled {
+  width: 70px;
+  height: 30px;
+}
+
+.foodRecipeAddedToCartIcons {
+  width: 30px;
+  height: 30px;
+}
+
+.foodRecipeAddedToCartIcons:hover {
+  cursor: pointer;
+}

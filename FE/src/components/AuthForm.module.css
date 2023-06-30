@@ -1,0 +1,87 @@
+.form {
+  width: 17%;
+  min-width: 18rem;
+  min-height: 18rem;
+  padding: 10px 20px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.input {
+  min-width: 80%;
+  height: 35px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 2px;
+  margin-bottom: 15px;
+  padding: 2px 15px;
+  transition: padding 0.2s;
+}
+
+.inputError {
+  min-width: 80%;
+  height: 35px;
+  border: 1px solid red;
+  border-radius: 2px;
+  padding: 2px 15px;
+  transition: padding 0.2s;
+}
+
+.input:focus {
+  border: 2px solid #ff8000;
+  outline: none;
+  padding: 5px 12px;
+}
+
+.inputError:focus {
+  border: 2px solid #ff8000;
+  outline: none;
+  padding: 5px 15px;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(185, 185, 185);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.actions button {
+  background-color: #ff8000;
+  border: none;
+  color: white;
+  width: 90%;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+.textError {
+  color: red;
+  font-size: 12px;
+}
+
+.credentialsErrorContainer {
+  background-color: #fff9df;
+  width: 80%;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  padding: 2px 15px;
+}
+
+.credentialsErrorText {
+  font-size: 12px;
+}

@@ -1,0 +1,14 @@
+.foodStoreDetailPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foodStoreDetailImageContainer {
+  width: 100%;
+  height: 35rem;
+}
+
+.foodStoreDetailContainer{
+  display: flex;
+}

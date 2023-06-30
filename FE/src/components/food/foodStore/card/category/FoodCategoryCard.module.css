@@ -1,0 +1,55 @@
+.foodCategoryCardContainer {
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.foodCategoryCardContainer:hover {
+  cursor: pointer;
+}
+
+.foodCategoryCardContainer:hover .foodCategoryCardIcon {
+  left: 0px;
+}
+
+.foodCategoryCardContainer:hover .foodCategoryCardName {
+  left: 10px;
+}
+
+.foodCategoryCardImageContainer {
+  width: 141px;
+  height: 90px;
+}
+
+.foodCategoryCardImage {
+  border-radius: 10px;
+}
+
+.foodCategoryCardNameContainer {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  overflow: hidden;
+}
+
+.foodCategoryCardIcon {
+  position: relative;
+  transition: left 0.2s ease;
+  left: -15px;
+}
+
+.selectedFoodCategoryCardIcon {
+  position: static;
+  margin-right: 10px;
+}
+
+.foodCategoryCardName {
+  left: -5px;
+  font-size: 14px;
+  position: relative;
+  transition: left 0.2s ease;
+}
+
+.selectedFoodCategoryCardName {
+}

@@ -1,0 +1,28 @@
+.addressNameContainer {
+  border-radius: 20px;
+  background-color: #ebebeb;
+  padding: 10px;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addressContainer {
+  display: flex;
+  align-items: center;
+}
+
+.address {
+  margin-top: 0;
+  margin-left: 7px;
+  font-size: 15px;
+}
+
+.linkToHome {
+  font-weight: bold;
+  color: black;
+  font-size: 13px;
+  margin-left: 20px;
+}
